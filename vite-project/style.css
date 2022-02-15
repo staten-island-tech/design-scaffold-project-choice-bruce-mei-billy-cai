@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: azure;
+}
+
+.title {
+  font-size: 7rem;
+  text-align: center;
+  font-family: "Monoton", cursive;
+  font-weight: 500;
+}
+
+.header {
+  border: 2rem;
+  height: 9rem;
+  border-style: double;
+  background-color: cornsilk;
+  border-color: azure;
+}
+
+.heading {
+  text-align: left;
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+.btn {
+  margin-top: -4rem;
+  text-align: right;
+  font-size: 2.5rem;
+  margin-right: 3rem;
+}
