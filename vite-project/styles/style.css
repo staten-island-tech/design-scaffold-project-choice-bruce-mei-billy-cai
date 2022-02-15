@@ -8,6 +8,11 @@ body,
   font-family: "Source Serif 4", sans-serif;
 }
 
+.title-text {
+  font-family: "Monoton", cursive;
+}
+.navbar {
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
