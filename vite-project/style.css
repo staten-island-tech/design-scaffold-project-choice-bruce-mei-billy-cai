@@ -22,25 +22,28 @@ body {
   font-weight: 500;
 }
 
-.header {
+.navbar {
   border: 2rem;
-  height: 9rem;
+  height: 12rem;
   border-style: double;
   background-color: cornsilk;
   border-color: azure;
   font-family: "Source Serif Pro", serif;
 }
 
-.heading {
+.navbar-title {
   text-align: left;
   font-size: 3rem;
   margin-left: 2rem;
   margin-top: 0.5rem;
 }
 
-.btn {
-  margin-top: -4rem;
-  text-align: right;
+.navbar-btn {
+  text-align: left;
   font-size: 2.5rem;
-  margin-right: 3rem;
+  margin-left: 2rem;
+}
+
+.navbar-btn li {
+  display: inline-block;
 }
