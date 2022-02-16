@@ -8,11 +8,18 @@ body,
   font-family: "Source Serif 4", sans-serif;
 }
 
-.title-text {
+.header-title {
   font-family: "Monoton", cursive;
 }
-.navbar {
+.navbar-list {
+  list-style: none;
+  display: inline-block;
 }
+.navbar-list li {
+  color: red;
+  display: inline-block;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
