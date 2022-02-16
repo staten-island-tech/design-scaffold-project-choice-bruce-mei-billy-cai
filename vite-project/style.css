@@ -28,12 +28,14 @@ body {
   border-style: double;
   background-color: cornsilk;
   border-color: azure;
+  font-family: "Source Serif Pro", serif;
 }
 
 .heading {
   text-align: left;
   font-size: 3rem;
   margin-left: 2rem;
+  margin-top: 0.5rem;
 }
 
 .btn {
