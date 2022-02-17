@@ -40,10 +40,21 @@ body {
 
 .navbar-btn {
   text-align: left;
-  font-size: 2.5rem;
-  margin-left: 2rem;
+  font-size: 3.5rem;
+  margin-left: 7rem;
+  margin-top: -1rem;
 }
 
-.navbar-btn li {
+.navbar-btns li {
   display: inline-block;
+}
+
+.navbar-btn:hover {
+  transform: scale(1.1);
+}
+
+.heading {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 400;
 }
