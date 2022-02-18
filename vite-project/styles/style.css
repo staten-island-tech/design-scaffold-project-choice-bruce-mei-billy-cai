@@ -26,6 +26,10 @@ body,
 .logos {
   display: inline-block;
 }
+
+.header {
+  background-image: ;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
