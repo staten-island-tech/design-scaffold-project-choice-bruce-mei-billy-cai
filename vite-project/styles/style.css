@@ -19,6 +19,13 @@ body,
   display: inline-block;
 }
 
+.social {
+  display: inline-block;
+  list-style: none;
+}
+.logos {
+  display: inline-block;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
