@@ -12,7 +12,8 @@ body,
 }
 
 body {
-  background-color: azure;
+  background-image: url(img/NYC\ Wallpaper.jpg);
+  background-size: cover;
 }
 
 .title {
