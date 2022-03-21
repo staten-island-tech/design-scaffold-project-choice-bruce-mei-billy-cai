@@ -30,6 +30,7 @@ body {
   background-color: cornsilk;
   border-color: azure;
   font-family: "Source Serif Pro", serif;
+  opacity: 0.75;
 }
 
 .navbar-title {
