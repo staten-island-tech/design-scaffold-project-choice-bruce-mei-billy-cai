@@ -12,8 +12,6 @@ body,
 }
 
 body {
-  background-image: url(img/NYC\ Wallpaper.jpg);
-  background-size: cover;
 }
 
 .title {
@@ -21,6 +19,9 @@ body {
   text-align: center;
   font-family: "Monoton", cursive;
   font-weight: 500;
+  height: 60rem;
+  margin-top: 30rem;
+  color: white;
 }
 
 .navbar {
