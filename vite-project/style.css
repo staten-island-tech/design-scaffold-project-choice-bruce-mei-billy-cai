@@ -25,13 +25,10 @@ body {
 }
 
 .navbar {
-  border: 2rem;
-  height: 12rem;
-  border-style: double;
-  background-color: cornsilk;
-  border-color: azure;
+  border: 0.25rem;
+  height: 10rem;
+  border-style: solid;
   font-family: "Source Serif Pro", serif;
-  opacity: 0.75;
 }
 
 .navbar-title {
@@ -44,7 +41,7 @@ body {
 .navbar-btn {
   text-align: left;
   font-size: 3.5rem;
-  margin-left: 7rem;
+  margin-left: 18rem;
   margin-top: -1rem;
 }
 
