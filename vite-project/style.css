@@ -26,7 +26,6 @@ body {
 }
 
 .navbar {
-  border: 0.25rem;
   height: 10rem;
   border-style: solid;
   font-family: "Source Serif Pro", serif;
@@ -40,9 +39,10 @@ body {
 }
 
 .navbar-btn {
-  text-align: left;
+  text-align: center;
   font-size: 3.5rem;
-  margin-left: 18rem;
+  width: 12rem;
+  margin-left: 3rem;
   margin-top: -1rem;
 }
 
@@ -52,6 +52,10 @@ body {
 
 .navbar-btn:hover {
   transform: scale(1.1);
+  background-color: white;
+  color: slateblue;
+  border-radius: 3rem;
+  transition-duration: 0.1s;
 }
 
 .heading {
