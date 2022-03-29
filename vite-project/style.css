@@ -33,6 +33,7 @@ body {
   border-color: azure;
   font-family: "Source Serif Pro", serif;
   opacity: 0.75;
+  width: 100%;
 }
 
 .navbar-title {
