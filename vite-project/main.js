@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 const tl = gsap.timeline({ scrollTrigger: ".header", delay: 0.2 });
 
 tl.from(".navbar", { y: -100, duration: 1.2, ease: "ease-out" });
-tl.from(".title", { opacity: 0, duration: 1, ease: "ease-out" });
+//tl.from(".title", { opacity: 0, duration: 1, ease: "ease-out" });
 
 `tl.from(".background-img", {
   clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
