@@ -20,9 +20,12 @@ body {
   text-align: center;
   font-family: "Monoton", cursive;
   font-weight: 500;
-  height: 60rem;
-  margin-top: 30rem;
+
   color: white;
+}
+
+.header-background {
+  height: 100rem;
 }
 
 .navbar {
@@ -34,6 +37,7 @@ body {
   font-family: "Source Serif Pro", serif;
   opacity: 0.75;
   width: 100%;
+  position: fixed;
 }
 
 .navbar-title {
