@@ -10,16 +10,17 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
-
+body {
+  background-color: white;
+}
 .title {
-  font-size: 7rem;
+  font-size: 9rem;
   text-align: center;
   font-family: "Monoton", cursive;
-  font-weight: 500;
   height: 60rem;
   color: white;
-  position: absolute;
-  margin-top: 40rem;
+  position: relative;
+  top: 40rem;
 }
 
 .navbar {
@@ -43,7 +44,7 @@ body,
   font-size: 3.5rem;
   width: 12rem;
   margin-left: 3rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .navbar-btns li {
@@ -52,22 +53,22 @@ body,
 
 .navbar-btn:hover {
   transform: scale(1.1);
-  background-color: white;
-  color: slateblue;
+  background-color: black;
+  color: white;
+
   border-radius: 3rem;
-  transition-duration: 0.1s;
+  transition-duration: 0.3s;
 }
 
 .heading {
-  color: slateblue;
+  color: black;
   font-size: 10rem;
   text-align: center;
   font-weight: 500;
   height: 50rem;
-}
-.section-header {
   position: relative;
 }
+
 .boroughs-img {
   width: 50rem;
   height: 50rem;
