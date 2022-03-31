@@ -12,19 +12,13 @@ body,
 }
 
 body {
-  background-color: slateblue;
+  background-color: blueviolet;
 }
 
-.title {
-  font-size: 7rem;
-  text-align: center;
-  font-family: "Monoton", cursive;
-  font-weight: 500;
-
-  color: white;
-}
-
-.header-background {
+.header {
+  background-image: url(img/NYC\ Wallpaper.jpg);
+  background-position: center;
+  background-size: cover;
   height: 100rem;
 }
 
@@ -32,12 +26,21 @@ body {
   border: 2rem;
   height: 12rem;
   border-style: double;
-  background-color: cornsilk;
+  background-color: slateblue;
   border-color: azure;
   font-family: "Source Serif Pro", serif;
-  opacity: 0.75;
   width: 100%;
   position: fixed;
+}
+
+.title {
+  font-size: 7rem;
+  text-align: center;
+  font-family: "Monoton", cursive;
+  font-weight: 500;
+  color: white;
+  position: relative;
+  top: 45rem;
 }
 
 .navbar-title {
@@ -45,6 +48,7 @@ body {
   font-size: 3rem;
   margin-left: 2rem;
   margin-top: 0.5rem;
+  color: white;
 }
 
 .navbar-btn {
@@ -52,6 +56,7 @@ body {
   font-size: 3.5rem;
   margin-left: 7rem;
   margin-top: -1rem;
+  color: white;
 }
 
 .navbar-btns li {
