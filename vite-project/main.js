@@ -11,7 +11,7 @@ tl.from(".navbar", {
 
 tl.from(".title", { opacity: 0, duration: 0.6, ease: "ease-out" });
 
-`tl.from(".header-background", {
+`tl.from(".header", {
   clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
   duration: 0.5,
   ease: "ease-out",
