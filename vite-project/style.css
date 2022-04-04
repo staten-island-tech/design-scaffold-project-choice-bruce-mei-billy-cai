@@ -12,23 +12,23 @@ body,
   scroll-behavior: smooth;
 }
 body {
-  background-color: white;
+  background-color: lightgoldenrodyellow;
 }
 .title {
   font-size: 8rem;
   text-align: center;
   font-family: "Monoton", cursive;
   height: 60rem;
-  color: white;
+  color: lightgoldenrodyellow;
   position: relative;
   top: 40rem;
 }
 
 .navbar {
   height: 12rem;
-  background-color: white;
+  background-color: lightgoldenrodyellow;
   border: 1rem;
-  border-width: 0.1rem;
+  border-width: 0.3rem;
   border-color: black;
   font-family: "Source Serif Pro", serif;
   position: fixed;
@@ -67,16 +67,16 @@ body {
 
 .heading {
   color: white;
-  font-size: 7.5rem;
+  font-size: 4rem;
   text-align: center;
   font-weight: 500;
-  height: 12rem;
+  height: 6rem;
   position: relative;
   font-family: "Source Serif Pro", serif;
   background-color: black;
   margin-top: 15rem;
   border-style: solid;
-  border-radius: 20rem;
+  border-radius: 3rem;
   width: 40%;
   display: block;
   margin-left: auto;
@@ -84,9 +84,15 @@ body {
 }
 
 .boroughs-img {
-  width: 40rem;
-  height: 40rem;
+  width: 30rem;
+  height: 30rem;
   display: block;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
+  margin-top: 4rem;
+}
+.boroughs-img:hover {
+  border-radius: 30%;
+  border-color: black;
+  transition-duration: 0.2s;
 }
