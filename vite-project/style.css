@@ -12,21 +12,21 @@ body,
   scroll-behavior: smooth;
 }
 body {
-  background-color: lightgoldenrodyellow;
+  background-color: lightyellow;
 }
 .title {
   font-size: 8rem;
   text-align: center;
   font-family: "Monoton", cursive;
   height: 60rem;
-  color: lightgoldenrodyellow;
+  color: lightyellow;
   position: relative;
   top: 40rem;
 }
 
 .navbar {
   height: 12rem;
-  background-color: lightgoldenrodyellow;
+  background-color: lightyellow;
   border: 1rem;
   border-width: 0.3rem;
   border-color: black;
@@ -81,6 +81,10 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.heading:hover {
+  transform: scale(105%);
+  transition-duration: 0.2s;
 }
 
 .boroughs-img {
