@@ -78,7 +78,7 @@ body {
   text-align: center;
   font-weight: 500;
   height: 12rem;
-  margin-bottom: 50rem;
+  margin-bottom: 10rem;
   font-family: "Source Serif Pro", serif;
   display: block;
   margin-left: auto;
@@ -88,11 +88,10 @@ body {
 }
 
 .boroughs-img {
-  width: 50rem;
-  height: 50rem;
-  margin-top: -30rem;
-  margin-left: 25rem;
-  margin-bottom: 15rem;
+  width: 40rem;
+  height: 40rem;
+  margin-right: 30%;
+  margin-left: 30%;
 }
 
 .Attractions {
@@ -149,7 +148,7 @@ body {
   border: 0.25rem solid #cccccc;
   border-radius: 1rem;
   overflow: hidden;
-  background: #ffffff;
+  background: lightyellow;
   box-shadow: 0.25rem 0.25rem 1rem 0.25rem #cccccc;
   /*   transition: 0.3s; */
 }
