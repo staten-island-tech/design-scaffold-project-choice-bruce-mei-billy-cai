@@ -107,7 +107,7 @@ body {
   text-align: center;
 }
 .ipsSpacer_bottom_double {
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 }
 .ipsGrid {
   display: inline-block;
@@ -145,7 +145,7 @@ body {
   align-items: center;
 }
 .card {
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   border: 0.25rem solid #cccccc;
   border-radius: 1rem;
   overflow: hidden;
@@ -156,7 +156,7 @@ body {
 .featured-image-container .card {
   padding: 1rem;
   height: 0;
-  padding-bottom: calc(100% - 2rem);
+  padding-bottom: calc(69%);
 }
 h2.heading_large {
   font-size: 3rem;
@@ -166,12 +166,15 @@ img {
 }
 
 .header-section {
+  font-size: 5rem;
   margin: 10rem auto;
 }
-
 .gs_reveal {
-  font-size: 1rem;
+  font-size: 8rem;
   opacity: 0;
   visibility: hidden;
   will-change: transform, opacity;
+}
+.description {
+  font-size: 1.5rem;
 }
