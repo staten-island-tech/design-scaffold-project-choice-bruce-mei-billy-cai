@@ -12,14 +12,14 @@ body,
   scroll-behavior: smooth;
 }
 body {
-  background-color: lightyellow;
+  background-color: white;
 }
 .title {
   font-size: 8rem;
   text-align: center;
   font-family: "Monoton", cursive;
   height: 60rem;
-  color: lightyellow;
+  color: white;
   position: relative;
   top: 40rem;
 }
@@ -28,7 +28,7 @@ body {
   height: 12rem;
   background-color: lightyellow;
   border: 1rem;
-  border-width: 0.3rem;
+  border-width: 0.1rem;
   border-color: black;
   font-family: "Source Serif Pro", serif;
   position: fixed;
