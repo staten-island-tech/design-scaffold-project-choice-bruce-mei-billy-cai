@@ -145,18 +145,18 @@ body {
   align-items: center;
 }
 .card {
-  margin-bottom: 1rem;
+  margin-bottom: 10rem;
   border: 0.25rem solid #cccccc;
   border-radius: 1rem;
   overflow: hidden;
   background: #ffffff;
-  box-shadow: 0.25rem 0.25rem 1rem 0.25rem #cccccc;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #cccccc;
   /*   transition: 0.3s; */
 }
 .featured-image-container .card {
   padding: 1rem;
   height: 0;
-  padding-bottom: calc(69%);
+  padding-bottom: calc(66.5%);
 }
 h2.heading_large {
   font-size: 3rem;
@@ -177,4 +177,7 @@ img {
 }
 .description {
   font-size: 1.5rem;
+}
+.ipsGrid_span7 {
+  margin-bottom: 10rem;
 }
