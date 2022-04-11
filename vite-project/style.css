@@ -74,10 +74,10 @@ body {
 .heading {
   background-color: black;
   color: white;
-  font-size: 8rem;
+  font-size: 7.5rem;
   text-align: center;
   font-weight: 500;
-  height: 12rem;
+  height: 11rem;
   margin-bottom: 50rem;
   font-family: "Source Serif Pro", serif;
   display: block;
@@ -170,7 +170,7 @@ img {
   margin: 10rem auto;
 }
 .gs_reveal {
-  font-size: 8rem;
+  font-size: 7.5rem;
   opacity: 0;
   visibility: hidden;
   will-change: transform, opacity;
@@ -180,4 +180,29 @@ img {
 }
 .ipsGrid_span7 {
   margin-bottom: 10rem;
+}
+
+.Food {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.food-img {
+  margin-bottom: 10rem;
+  border: 0.25rem solid #cccccc;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #cccccc;
+}
+
+.food-img:hover {
+  transform: scale(2);
+}
+
+.food-child {
+  width: 25rem;
+  height: 40rem;
 }
