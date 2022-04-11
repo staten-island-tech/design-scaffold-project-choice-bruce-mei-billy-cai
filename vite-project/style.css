@@ -26,7 +26,7 @@ body {
 
 .navbar {
   height: 12rem;
-  background-color: lightyellow;
+  background-color: white;
   border: 1rem;
   border-width: 0.1rem;
   border-color: black;
@@ -36,6 +36,7 @@ body {
   text-align: center;
   z-index: 99;
   border-style: solid;
+  box-shadow: 1px 1px 18px 1px gray;
 }
 
 .navbar-title {
@@ -95,11 +96,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   margin-top: 4rem;
-}
-.boroughs-img:hover {
-  border-radius: 30%;
-  border-color: black;
-  transition-duration: 0.2s;
+  box-shadow: 1px 1px 5px 1px #000000;
 }
 
 .ipsType_right {
@@ -152,20 +149,19 @@ body {
   align-items: center;
 }
 .card {
-  margin-bottom: 30px;
+  margin-bottom: 7rem;
   border: 1px solid #cccccc;
   border-radius: 8px;
   overflow: hidden;
   background: #ffffff;
   box-shadow: 1px 1px 5px 1px #cccccc;
-  /*   transition: 0.3s; */
 }
 .featured-image-container .card {
   padding: 10px;
   height: 0;
-  padding-bottom: calc(100% - 10px);
+  padding-bottom: calc(68% - 10px);
 }
-h2.heading_large {
+h2.AttractionTitle {
   font-size: 3rem;
 }
 img {
