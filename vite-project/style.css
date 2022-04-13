@@ -149,12 +149,16 @@ body {
   align-items: center;
 }
 .card {
-  margin-bottom: 7rem;
+  margin-bottom: 8rem;
   border: 1px solid #cccccc;
   border-radius: 8px;
   overflow: hidden;
   background: #ffffff;
   box-shadow: 1px 1px 5px 1px #cccccc;
+}
+.card:hover {
+  background-color: lightgoldenrodyellow;
+  transition-duration: 1s;
 }
 .featured-image-container .card {
   padding: 10px;
@@ -173,7 +177,7 @@ img {
 }
 
 .gs_reveal {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   opacity: 0;
   visibility: hidden;
   will-change: transform, opacity;
