@@ -190,19 +190,21 @@ img {
 }
 
 .food-img {
-  margin-bottom: 10rem;
-  border: 0.25rem solid #cccccc;
-  border-radius: 1rem;
-  overflow: hidden;
-  background: #ffffff;
-  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #cccccc;
-}
-
-.food-img:hover {
-  transform: scale(2);
 }
 
 .food-child {
   width: 25rem;
   height: 40rem;
+  transition: transform 0.2s;
+}
+
+.food-child:hover {
+  transform: scale(1.3);
+}
+
+.food-name {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "Source Serif Pro", serif;
 }
