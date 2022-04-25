@@ -149,7 +149,7 @@ body {
   align-items: center;
 }
 .card {
-  margin-bottom: 8rem;
+  margin-bottom: 2rem;
   border: 1px solid #cccccc;
   border-radius: 8px;
   overflow: hidden;
@@ -157,8 +157,8 @@ body {
   box-shadow: 1px 1px 5px 1px #cccccc;
 }
 .card:hover {
-  background-color: lightgoldenrodyellow;
-  transition-duration: 1s;
+  box-shadow: 1px 1px 5px 1px #000000;
+  transition-duration: 0.2s;
 }
 .featured-image-container .card {
   padding: 10px;
