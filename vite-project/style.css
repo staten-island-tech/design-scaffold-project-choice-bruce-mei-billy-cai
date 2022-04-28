@@ -19,9 +19,10 @@ body {
   text-align: center;
   font-family: "Monoton", cursive;
   height: 60rem;
-  color: white;
+  color: #ffffff;
   position: relative;
   top: 40rem;
+  text-shadow: black 3px 5px;
 }
 
 .navbar {
@@ -44,6 +45,7 @@ body {
   font-size: 3rem;
   margin-left: 2rem;
   margin-top: 0.5rem;
+  text-shadow: 2px 2px 3px black;
 }
 
 .navbar-btn {
