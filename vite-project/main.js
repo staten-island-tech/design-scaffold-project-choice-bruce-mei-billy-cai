@@ -4,10 +4,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 const tl = gsap.timeline({ scrollTrigger: ".header", delay: 0.2 });
 
-tl.from(".navbar", {
-  x: -2000,
-  duration: 0.4,
-});
+tl.from(".navbar", { y: -100, duration: 1.2, ease: "ease-out" });
+//tl.from(".title", { opacity: 0, duration: 1, ease: "ease-out" });
 
 tl.from(".title", { opacity: 0, duration: 0.6, ease: "ease-out" });
 
@@ -68,27 +66,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-
-let proxy = { skew: 0 },
-  skewSetter = gsap.quickSetter(".skewElem", "skewY", "deg"), // fast
-  clamp = gsap.utils.clamp(-20, 20); // don't let the skew go beyond 20 degrees.
-
-ScrollTrigger.create({
-  onUpdate: (self) => {
-    let skew = clamp(self.getVelocity() / -300);
-    // only do something if the skew is MORE severe. Remember, we're always tweening back to 0, so if the user slows their scrolling quickly, it's more natural to just let the tween handle that smoothly rather than jumping to the smaller skew.
-    if (Math.abs(skew) > Math.abs(proxy.skew)) {
-      proxy.skew = skew;
-      gsap.to(proxy, {
-        skew: 0,
-        duration: 0.8,
-        ease: "power3",
-        overwrite: true,
-        onUpdate: () => skewSetter(proxy.skew),
-      });
-    }
-  },
-});
-
-// make the right edge "stick" to the scroll bar. force3D: true improves performance
-gsap.set(".skewElem", { transformOrigin: "right center", force3D: true });
