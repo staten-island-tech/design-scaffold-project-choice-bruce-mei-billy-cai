@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
   gsap.registerPlugin(ScrollTrigger);
 
   gsap.utils.toArray(".gs_reveal").forEach(function (elem) {
-    hide(elem); // assure that the element is hidden when scrolled into view
+    hide(elem);
 
     ScrollTrigger.create({
       trigger: elem,
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       onLeave: function () {
         hide(elem);
-      }, // assure that the element is hidden when scrolled into view
+      },
     });
   });
 });
