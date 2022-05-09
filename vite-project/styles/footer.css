@@ -1,0 +1,35 @@
+.footer {
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+.footer p {
+  text-align: center;
+  font-size: 1.4rem;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  margin: 0.75rem 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.footerMiddle {
+  display: flex;
+  justify-content: center;
+}
+.footerMiddle a {
+  font-size: 1.4rem;
+  margin: 1.5rem 1rem 0 0;
+}
+.footerMiddle a:hover {
+  text-decoration: underline;
+}
+.footerBottom {
+  margin-top: 1rem;
+}

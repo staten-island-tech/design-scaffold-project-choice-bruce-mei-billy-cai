@@ -1,0 +1,42 @@
+.navbar {
+  height: 12rem;
+  background-color: white;
+  border: 1rem;
+  border-width: 0.1rem;
+  border-color: black;
+  font-family: "Source Serif Pro", serif;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  z-index: 99;
+  border-style: solid;
+  box-shadow: 1px 1px 18px 1px gray;
+}
+
+.navbar-title {
+  text-align: left;
+  font-size: 3rem;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  text-shadow: 2px 2px 3px black;
+}
+
+.navbar-btn {
+  text-align: center;
+  font-size: 3.5rem;
+  width: 12rem;
+  margin-left: 3rem;
+  margin-top: 0.5rem;
+}
+
+.navbar-btns li {
+  display: inline-block;
+}
+
+.navbar-btn:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: white;
+  border-radius: 3rem;
+  transition-duration: 0.3s;
+}
