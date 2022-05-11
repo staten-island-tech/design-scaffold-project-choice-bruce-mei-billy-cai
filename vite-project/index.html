@@ -5,206 +5,244 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
    
 <title>GSAP Design Project</title>
   </head>
-  <body>
   
-<div class="header">
-
+<body class="">
+  
 <!--NAVBAR-->
-  <nav class="navbar">
+<nav class="navbar bg-white">
   <a href="" class="navbar-title">NEW YORK CITY</a>
     <ul class="navbar-btns">
-      <li class="navbar-btn"><a href="#home">Home</a></li>
-      <li class="navbar-btn"><a href="#nycboroughs">Boroughs</a></li>
-      <li class="navbar-btn"><a href="#nycattractions">Attractions</a></li>
-      <li class="navbar-btn"><a href="#nycfood">Food</a></li>
-      <li class="navbar-btn"><a href="#nycevents">Events</a></li>
-      <li class="navbar-btn"><a href="#nyctransports">Transports</a></li>
+      <li class="navbar-btn" id="homeButton">
+        <a href="#home">Home</a>
+      </li>
+      <li class="navbar-btn" id="boroughsButton">
+        <a href="#boroughs">Boroughs</a>
+      </li>
+      <li class="navbar-btn" id="attractionsButton">
+        <a href="#attractions">Attractions</a>
+      </li>
+      <li class="navbar-btn" id="foodButton">
+        <a href="#food">Food</a>
+      </li>
+      <li class="navbar-btn" id="eventsButton">
+        <a href="#events">Events</a>
+      </li>
+      <li class="navbar-btn" id="transportButton">
+        <a href="#transportation">Transport</a>
+      </li>
     </ul>
-  </nav>  
+  </nav>
 
-  <h1 class="title">New York City</h1>
-
+<!--START SECTION-->
+  <div class="header">
+    <div class="header-background h-screen" style="background-image: url(img/bridge.jpg); background-size: cover;" >
+      <h1 class="title">New York City</h1>
+  </div>
 </div>
 
-<!--BOROUGHS-->
-<div>
+<!--BOROUGH SECTION-->
+<div class="section-header">
   <h2 class="heading">Boroughs</h2>
-  <img class="boroughs-img" src="img/Boroughs img.jpg" alt="Boroughs img"> 
+
+      <div class="card">
+        <img class="cardImage" id="boroughsImage" src="img/nycboroughs.jpg" alt="Boroughs">
+        <div class="">
+          <h2 class="Title" id="boroughTitle">The Five Boroughs</h2>
+          <p class="cardDescription">NYC has five of them—the Bronx, Brooklyn, Manhattan, Queens and Staten Island—each with dozens of neighborhoods lending their own local flavor.</p>
+      </div>
+    </div>
 </div>
 
-<!--ATTRACTIONS-->
-<div class="All">
-  <h1 class="heading header-section gs_reveal ipsType_center ">Attractions</h1>
+<!--ATTRACTION SECTION-->
+<div class="section-header">
+  <h2 class="heading">Attractions</h2>
+
+          <div class="card">
+            <img class="cardImage" src="img/Statue.jpg" alt="Statue">
+            <div class="">
+              <h2 class="Title" id="attractionTitle">The Statue of Liberty</h2>
+              <p class="cardDescription">The Statue of Liberty was a gift from France to the United States as a sign of friendship. As one of the most recognizable statures in the country, it is often seen as a symbol of freedom and justice. Fully established on October 28, 1886, it stands at a whopping 305 feet and resides in Liberty Island located in New York. Incredible views from all angles, you may even be able to get your hands on a ticket and climb up to the crown of the Statue. This incredible monument strikes pride, hope,  and inspiration in those who stop by.</p>
+            </div>
+          </div>
+        
+        <div class="card">
+          <img class="cardImage" src="img/tmsq.jfif" alt="TimesSquare">
+          <div class="">
+              <h2 class="Title" id="attractionTitle">Times Square</h2>
+              <p class="cardDescription">Times Square is a wonder to behold when visiting New York City. It is a major tourist destination for those who want to be enetertained, shop, and explore. Located in midtown Manhattan, Times Square is filled with those who come to see annual festivials/events especially during New Years. Every direction you turn there are numerous buildings, billboard, and lights. If you want something, chance has it that its in Time Square, from a wide arrangements of foods and fun. An estimated 50 million visitors come annually which is why Times Square is referred to as “the Crossroads of the World”.</p>
+            </div>
+        </div>
+      
+          <div class="card">
+            <img class="cardImage" src="img/MoNH.jpg" alt="Museum">
+            <div class="">
+              <h2 class="Title" id="attractionTitle">The Museum of Natural History</h2>
+              <p class="cardDescription">The world's most popular natural history museum is dedicated to understanding the natural world and our place in it. Delve into the fascinating story of our planet, from its fiery beginnings through billions of years of transformation, and explore life on Earth through exhibitions and activities, collection objects and research that happens in the lab and in the field. The museum is larger than 18 football fields and is home to the largest natural history collection in the world.</p>
+            </div>
+          </div>
   
-  <div class="features">
-
-    <!--Statue Of Liberty-->
-    <div class="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
-      <div class="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromLeft">
         <div class="card">
-          <img width="479" src="img/Statue 1.jpg" alt="">
+          <img class="cardImage" src="img/central.jpg" alt="CentralPark">
+            <div class="">
+              <h2 class="Title" id="attractionTitle">Central Park</h2>
+              <p class="cardDescription">Arguably one of the most famous parks in the world, Central Park is a manmade wonder.  Not only is it the first public park built in America, but it is also one of the most frequently visited, with over 25 million guests per year. Set in the middle of bustling Manhattan, its grounds serve as a safe haven, not only for athletes, daydreamers, musicians, and strollers, but also for teems of migratory birds each year.  One can spend an entire peaceful day roaming its grounds, gazing upon nearly 50 fountains, monuments, and sculptures or admiring its 36 bridges and arches.</p>
+          </div>
         </div>
-      </div>
-
-      <div class="ipsGrid_span7 ipsType_left">
-        <h2 class="heading_large gs_reveal">Statue of Liberty</h2>
-        <p class="gs_reveal description">The Statue of Liberty is among New York City's—and America's—most familiar landmarks: a massive copper-and-steel cast of a green lady raising a torch, clutching a tablet and donning a seven-point crown. Some visitors miss out on seeing the statue up close because it's set on a government-run island in the middle of New York Harbor and only accessible by boat, but it's easy to work into your trip with some advance planning.</p>
-      </div>
-    </div>
-
-    <!--Times Square-->
-    <div class="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
-      <div class="ipsGrid_span7 ipsType_right">
-        <h2 class="heading_large gs_reveal">Times Square</h2>
-        <p class="gs_reveal description">With its neon lights and billboards, Times Square is New York’s most famous landmark and is the liveliest area in the city, located at the intersection of Broadway and 7th Avenue.
-
-        In Times Square you will find bars, restaurants, theatres, museums and a great atmosphere. When night falls, the lights of Times Square illuminate the city, and locals and tourists alike are totally enchanted by the city's most famous square.</p>
-      </div>
-
-      <div class="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromRight">
-        <div class="card">
-          <img width="479" src="img/Times Square img.jpg" alt="">
-        </div>
-      </div>
-    </div>
-
-    <!--Museum of Natural History-->
-    <div class="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
-      <div class="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromLeft">
-        <div class="card">
-          <img width="479" src="img/MoNH img.jpg" alt="">
-        </div>
-      </div>
-
-      <div class="ipsGrid_span7 ipsType_left">
-        <h2 class="heading_large gs_reveal">American Museum of Natural History</h2>
-        <p class="gs_reveal description">American Museum of Natural History, institute established in New York City in 1869. It is a major centre of research and education on the natural sciences. It pioneered in mounting field expeditions and in creating dioramas and other lifelike exhibits showing natural habitats and their plant and animal life.</p>
-      </div>
-    </div>
-
-    <!--Central Park-->
-    <div class="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
-      <div class="ipsGrid_span7 ipsType_right">
-        <h2 class="heading_large gs_reveal">Central Park</h2>
-        <p class="gs_reveal description">Set in the middle of bustling Manhattan, its grounds serve as a safe haven, not only for athletes, daydreamers, musicians, and strollers, but also for teems of migratory birds each year.  One can spend an entire peaceful day roaming its grounds, gazing upon nearly 50 fountains, monuments, and sculptures or admiring its 36 bridges and arches.</p>
-      </div>
-
-      <div class="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromRight">
-        <div class="card">
-          <img width="479" src="img/Central Park img.jpg" alt="">
-        </div>
-      </div>
-    </div>
-
-  </div>
-
 </div>
+  
+<!--FOOD SECTION-->
+<div class="section-header">
+  <h2 class="heading">Food</h2>
+  
+          <div class="card">
+            <img class="cardImage" src="img/BEGG.jpg" alt="BEC">
+ 
+        <div class="">
+          <h2 class="Title" id="foodTitle">The Bacon, Egg & Cheese</h2>
+          <p class="cardDescription">One of New York City's culinary mascots—the bacon, egg, and cheese is eaten by millions of New Yorkers every morning. A staple breakfast cherished all throughout the state, it is simple yet delicious. As the name implies, the sandwich/bagel is complimented with crispy bacon, eggs, and cheese. Served fresh and hot, the breakfast can be bought and enjoyed at many deli's, cafe's, and restaurants.</p>
+        </div>
+      </div>
+  
+        <div class="card">
+          <img class="cardImage" src="img/BENE.jpg" alt="EggsBenedict">
+        <div class="">
+          <h2 class="Title" id="foodTitle">Eggs Benedict</h2>
+          <p class="cardDescription">The Eggs Benedict is a traditional American breakfast and brunch recipe that originated in New York City. It is made up of an toasted English muffin, topped with Canadian bacon, poached eggs, and classic French Hollandaise sauce. It's decadent, rich, and satisfying. Eggs Benedict can be found in a variety of restaurants and bakeries.</p>
+        </div>
+      </div>
+  
+          <div class="card">
+            <img class="cardImage" src="img/PAST.avif" alt="Pastrami">
+        <div class="">
+          <h2 class="Title" id="foodTitle">Pastrami Sandwich</h2>
+          <p class="cardDescription">Pastrami on rye bread is a classic sandwich made famous in the Jewish kosher delicatessens of New York City. It was first created in 1888 by Sussman Volk, who served it at his deli on Delancey Street in New York City. The sandwhich is made up of Pastrami, Rye Bread, and Mustard. Pastrami Sandwiches and Pastrami meat can be bought at Deli's and markets that sell different kinds of meat. </p>
+        </div>
+      </div>
+  
+        <div class="card">
+          <img class="cardImage" src="img/PIZZA.jpg" alt="Pizza">
+        <div class="">
+          <h2 class="Title" id="foodTitle">NYC Pizza</h2>
+          <p class="cardDescription">New York–style pizza is made with a characteristically large hand-tossed thin crust, often sold in wide slices to go. The crust is thick and crisp along its edge, yet soft, thin, and pliable enough beneath its toppings to be folded in half to eat. Traditionally, the main toppings consist of tomato sauce and shredded mozzarella cheese. You can find these pizzas almost anywhere in NYC, sold in many restaurants and pizzerias.</p>
+        </div>
+      </div>
 
-<!--FOOD-->
-<h2 class="heading header-section gs_reveal ipsType_center ">Food</h2>
-  <div class="Food">
-    <div class="food-child">
-      <img class="food-img skewElem" src="img/BEC img.jpg" alt="Bacon Egg and Cheese img">
-      <a href="https://www.timeout.com/newyork/restaurants/best-bacon-egg-and-cheese-sandwiches-in-nyc" class="food-name">Bacon Egg and Cheese</a>
-    </div>
-    <div class="food-child">
-      <img class="food-img skewElem" src="img/Pizza img.jpg" alt="Pizza img">
-      <a href="https://www.timeout.com/newyork/restaurants/best-new-york-pizza" class="food-name">Pizza</a>
-    </div>
-    <div class="food-child">
-      <img class="food-img skewElem" src="img/Burger img.jpg" alt="Burger img">
-      <a href="https://www.timeout.com/newyork/restaurants/best-burgers-nyc" class="food-name">Burger</a>
-   
-    </div>
+        <div class="">
+          <div class="card">
+            <img class="cardImage" src="img/BURG.jpg" alt="Burger">
+        <div class="">
+          <h2 class="Title" id="foodTitle">Burgers</h2>
+          <p class="cardDescription">Without a doubt, NYC provides some of the most prolific and quality burger joints in the world. Consisting of a freshly baked bun, a large juicy patty, cheese, accompanied by whatever suites your liking, a burger in NYC is definately one food you cant pass up. If you ever stop by and visit NYC, you should definately consider a burger as a must-eat. </p>
+        </div>
+      </div>
+
+        <div class="card">
+          <img class="cardImage" src="img/CHEESECAKE.jpg" alt="Cheesecake">
+        <div class=""> 
+          <h2 class="Title" id="foodTitle">Cheesecake</h2>
+          <p class="cardDescription">Fluffy, rich, and smooth; Cheesecake in NYC is a dessert to be cherished. With multiple dozens of varieties, there is at least a few that would catch your liking. It is sweet and consists of multiple layers of cheese and a pastry crust/base which is often made from crushed cookies, graham crackers, or sometimes sponge cake. Cheesecake can be found in many NYC restaurants, Cafes, and Bakeries.</p>
+        </div>
+      </div>
   </div>
-  <div class="Food">
-    <div class="food-child">
-      <img class="food-img skewElem" src="img/Sandwich img.jpg" alt="Sandwich img">
-      <a href="https://www.timeout.com/newyork/restaurants/the-10-best-sandwiches-in-nyc" class="food-name">Sandwich</a>
-    </div>
-    <div class="food-child">
-      <img class="food-img skewElem" src="img/Dessert img.jpg" alt="Dessertimg">
-      <a href="https://www.timeout.com/newyork/restaurants/best-dessert-in-nyc" class="food-name">Dessert</a>
-    </div>
-    <div class="food-child">
-      <img class="food-img skewElem" src="img/Egg Benedict img.jpg" alt="Egg Benedict img">
-      <a href="https://www.timeout.com/newyork/restaurants/best-eggs-benedict-in-nyc" class="food-name">Eggs Benedict</a>
-    </div>
 </div>
 
 <!--EVENTS-->
-<div class="All">
-  <h2 class="heading header-section gs_reveal ipsType_center ">Events</h2>
-    
-  <div class="features">
-
-    <!--Broadway-->
-    <div class="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
-      <div class="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromLeft">
-        <div class="card">
-          <img width="479" src="img/Broadway img (1).jpg" alt="">
+<div class="section-header">
+  <h2 class="heading">Events</h2>
+  
+          <div class="card">
+            <img class="cardImage" src="img/bdway.jpg" alt="Broadway">
+        <div class="">
+          <h2 class="Title" id="eventTitle">Broadway Shows</h2>
+          <p class="cardDescription">Most people who have never bothered to see a Broadway show don’t know what they are missing out on. Musicals and performances immerse you into the story and even tackles social and political issues without being too controversial. Many popular musicals seen in Broadway are based off history and before the show is over, you will have learned something you've never knew about before. Once you experience your first show, it's almost impossible not to come back for more.</p>
         </div>
       </div>
 
-      <div class="ipsGrid_span7 ipsType_left">
-        <h2 class="heading_large gs_reveal">Broadway Shows</h2>
-        <p class="gs_reveal description">Broadway, New York City thoroughfare that traverses the length of Manhattan, near the middle of which are clustered the theatres that have long made it the foremost showcase of commercial stage entertainment in the United States.</p>
-      </div>
-    </div>
-
-    <!--Rockefeller-->
-    <div class="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
-      <div class="ipsGrid_span7 ipsType_right">
-        <h2 class="heading_large gs_reveal">Rockefeller Center Christmas Tree Lighting</h2>
-        <p class="gs_reveal description">The Rockefeller Center Christmas Tree is a large Christmas tree placed annually in Rockefeller Center, in Midtown Manhattan, New York City. The tree is put in place in mid November and lit in a public ceremony on the Wednesday evening following Thanksgiving.</p>
-      </div>
-
-      <div class="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromRight">
         <div class="card">
-          <img width="479" src="img//Rockefeller img (1).jpg" alt="">
+          <img class="cardImage" src="img/tree.jpg" alt="ChristmasTree">
+        <div class="">
+          <h2 class="Title" id="eventTitle">Rockefeller Christmas Tree Lighting</h2>
+          <p class="cardDescription">Dating way back to 1933, this tradition has represented the start of the holidays and brought the city of New York together. Over the years, the trees has been decorated in bright lights and beautiful decorations that fill</p>
+        </div>
+      </div>
+  
+          <div class="card">
+            <img class="cardImage" src="img/ball.webp" alt="BallDrop">
+        <div class="">
+          <h2 class="Title" id="eventTitle">Times Square Ball Drop</h2>
+          <p class="cardDescription">The world's most popular natural history museum is dedicated to understanding the natural world and our place in it. Delve into the fascinating story of our planet, from its fiery beginnings through billions of years of transformation, and explore life on Earth through exhibitions and activities, collection objects and research that happens in the lab and in the field. The museum is larger than 18 football fields and is home to the largest natural history collection in the world.</p>
         </div>
       </div>
     </div>
-
-    <!--Ball Drop-->
-    <div class="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
-      <div class="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromLeft">
-        <div class="card">
-          <img width="479" src="img/Ball Drop img (1).jpg" alt="">
-        </div>
-      </div>
-
-      <div class="ipsGrid_span7 ipsType_left">
-        <h2 class="heading_large gs_reveal">Times Square Ball Drop</h2>
-        <p class="gs_reveal description">Every year as the clock nears midnight on December 31, the eyes of the world turn once more to the dazzling lights and bustling energy of Times Square. Anticipation runs high. New Year's Eve at the symbolic center of New York City has become more than just a celebration — it's a global tradition.
-
-          The world holds its breath, and cheers as the clocks strike twelve.</p>
-      </div>
-    </div>
-  </div>
-</div>
+  
 
 <!--TRANSPORTS-->
-<div>
-  <h2 class="heading header-section gs_reveal ipsType_center ">Transports</h2>
-  <img class="transport-img" src="img/Train.jpg" alt="Train img">
-  <img class="transport-img" src="img/Taxi.jpg" alt="Taxi img">
-  <img class="transport-img" src="img/Bus.jpg" alt="Bus img">
-</div>
+<div class="section-header">
+  <h2 class="heading">Transport</h2>
+  
+          <div class="card">
+            <img class="cardImage" src="img/train.webp" alt="">
+        <div class="">
+          <h2 class="Title" id="transportTitle">Subways and Trains</h2>
+          <p class="cardDescription">The Statue of Liberty was a gift from France to the United States as a sign of friendship. As one of the most recognizable statures in the country, it is often seen as a symbol of freedom and justice. Fully established on October 28, 1886, it stands at a whopping 305 feet and resides in Liberty Island located in New York. Incredible views from all angles, you may even be able to get your hands on a ticket and climb up to the crown of the Statue. This incredible monument strikes pride, hope,  and inspiration in those who stop by.</p>
+        </div>
+      </div>
+  
+        <div class="card">
+          <img class="cardImage" src="img/bus.webp" alt="">  
+        <div class="">
+          <h2 class="Title" id="transportTitle">NYC Buses</h2>
+          <p class="cardDescription">Times Square is a wonder to behold when visiting New York City. It is a major tourist destination for those who want to be enetertained, shop, and explore. Located in midtown Manhattan, Times Square is filled with those who come to see annual festivials/events especially during New Years. Every direction you turn there are numerous buildings, billboard, and lights. If you want something, chance has it that its in Time Square, from a wide arrangements of foods and fun. An estimated 50 million visitors come annually which is why Times Square is referred to as “the Crossroads of the World”.</p>
+        </div>
+      </div>
+  
+          <div class="card">
+            <img class="cardImage" src="img/bike.jpg" alt="">
+        <div class="">
+          <h2 class="Title" id="transportTitle">Public Bikes</h2>
+          <p class="cardDescription">The world's most popular natural history museum is dedicated to understanding the natural world and our place in it. Delve into the fascinating story of our planet, from its fiery beginnings through billions of years of transformation, and explore life on Earth through exhibitions and activities, collection objects and research that happens in the lab and in the field. The museum is larger than 18 football fields and is home to the largest natural history collection in the world.</p>
+        </div>
+      </div>
+    </div>
 
+<!--FOOTER SECTION-->
+
+<footer class="footer">
+  <div class="socials">
+    <a href="https://twitter.com/?lang=en">
+      <img src="img/twitter.png" alt="Twitter" id="twitterLogo" class="logo">
+    </a>
+    <a href="https://www.instagram.com/?hl=en">
+      <img src="img/insta.webp" alt="Instagram" id="instagramLogo" class="logo">
+    </a>
+    <a href="https://www.facebook.com/">
+      <img src="img/facebook.png" alt="Facebook" id="facebookLogo" class="logo">
+    </a>
+  </div>
+
+  <div class="footerMiddle">
+    <a href="" class="">Terms of Service</a>
+    <a href="https://www.youtube.com/watch?v=h3fUgOKFMNU" class="">Explore</a>
+  </div>
+
+  <div class="footerBottom">
+    <p class="copyright">Copyright &copy 2022 Bruce M. & Billy C.</p>
+  </div>
+</footer>
 
 
 
 
     <script type="module" src="/main.js"></script>
+    
   </body>
 </html>
 

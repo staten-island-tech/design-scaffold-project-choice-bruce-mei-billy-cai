@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+.title {
+  font-size: 8rem;
+  text-align: center;
+  font-family: "Monoton", cursive;
+  height: 60rem;
+  color: #ffffff;
+  position: relative;
+  top: 40rem;
+  text-shadow: black 3px 5px;
+}
+.heading {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 500;
+  height: 6rem;
+  position: relative;
+  font-family: "Source Serif Pro", serif;
+  background-color: black;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+  border-radius: 3rem;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boroughsImage{
+  width: 30rem;
+  height: 30rem;
+  display: block;
+  margin-top: 4rem;
+}
+.cardImage{
+  width: 48rem;
+  height: 30rem;
+  border-radius: 1.5rem;
+}
+.card {
+  margin-bottom: 4rem;
+  background: #ffffff;
+  width: 90rem; 
+  border-radius: 2rem;
+  text-align: center;
+  display: flex;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition-duration: 0.2s;
+}
+.cardDescription{
+  font-size: 1.5rem;
+}
+.Title{
+  font-size: 2.5rem;
+}
+
