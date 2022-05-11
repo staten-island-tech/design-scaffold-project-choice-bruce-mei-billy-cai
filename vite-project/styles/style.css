@@ -37,13 +37,13 @@ body,
   margin-left: auto;
   margin-right: auto;
 }
-.boroughsImage{
+.boroughsImage {
   width: 30rem;
   height: 30rem;
   display: block;
   margin-top: 4rem;
 }
-.cardImage{
+.cardImage {
   width: 48rem;
   height: 30rem;
   border-radius: 1.5rem;
@@ -51,19 +51,21 @@ body,
 .card {
   margin-bottom: 4rem;
   background: #ffffff;
-  width: 90rem; 
+  width: 48rem;
   border-radius: 2rem;
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
 }
 .card:hover {
   transform: scale(1.05);
   transition-duration: 0.2s;
 }
-.cardDescription{
+.cardDescription {
   font-size: 1.5rem;
 }
-.Title{
+.Title {
   font-size: 2.5rem;
 }
-

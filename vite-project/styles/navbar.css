@@ -32,7 +32,6 @@
 .navbar-btns li {
   display: inline-block;
 }
-
 .navbar-btn:hover {
   transform: scale(1.1);
   background-color: black;
