@@ -11,9 +11,6 @@ body,
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
-body {
-  background-color: white;
-}
 .title {
   font-size: 8rem;
   text-align: center;
@@ -24,7 +21,6 @@ body {
   top: 40rem;
   text-shadow: black 3px 5px;
 }
-
 .heading {
   color: white;
   font-size: 4rem;
@@ -36,68 +32,38 @@ body {
   background-color: black;
   margin-top: 15rem;
   margin-bottom: 15rem;
-  border-style: solid;
   border-radius: 3rem;
   width: 40%;
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-.boroughs-img {
+.boroughsImage{
   width: 30rem;
   height: 30rem;
   display: block;
-  margin-right: auto;
-  margin-left: auto;
   margin-top: 4rem;
-  box-shadow: 1px 1px 5px 1px #000000;
 }
-
-.feature {
-  display: flex;
-  align-items: center;
+.cardImage{
+  width: 48rem;
+  height: 30rem;
+  border-radius: 1.5rem;
 }
 .card {
-  margin-bottom: 2rem;
-  border: 1px solid #cccccc;
-  border-radius: 8px;
-  overflow: hidden;
+  margin-bottom: 4rem;
   background: #ffffff;
-  box-shadow: 1px 1px 5px 1px #cccccc;
+  width: 90rem; 
+  border-radius: 2rem;
+  text-align: center;
+  display: flex;
 }
 .card:hover {
-  box-shadow: 1px 1px 5px 1px black;
+  transform: scale(1.05);
   transition-duration: 0.2s;
 }
-.featured-image-container .card {
-  padding: 10px;
-  height: 0;
-  padding-bottom: calc(68% - 10px);
-}
-.AttractionTitle {
-  font-size: 2.5rem;
-}
-img {
-  max-width: 100%;
-}
-
-.header-section {
-  margin: 200px auto;
-}
-
-.gs_reveal {
+.cardDescription{
   font-size: 1.5rem;
-  opacity: 0;
-  visibility: hidden;
-  will-change: transform, opacity;
 }
-.FoodTitle {
+.Title{
   font-size: 2.5rem;
 }
-.EventTitle {
-  font-size: 2.5rem;
-}
-.TransportTitle {
-  font-size: 2.5rem;
-}
+
