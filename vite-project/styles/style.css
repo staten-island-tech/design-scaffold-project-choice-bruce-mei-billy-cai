@@ -69,3 +69,26 @@ body,
 .Title {
   font-size: 2.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .heading {
+    width: 50%;
+  }
+  .cardImage {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 926px) {
+  body {
+    background-color: red;
+  }
+  .navbar {
+    background-color: aqua;
+    height: 15rem;
+  }
+}
