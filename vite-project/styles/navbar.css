@@ -5,9 +5,10 @@
   border-width: 0.1rem;
   border-color: black;
   font-family: "Source Serif Pro", serif;
+  text-align: center;
   position: fixed;
   width: 100%;
-  text-align: center;
+
   z-index: 99;
   border-style: solid;
   box-shadow: 1px 1px 18px 1px gray;
@@ -39,4 +40,13 @@
   color: white;
   border-radius: 3rem;
   transition-duration: 0.3s;
+}
+
+.theme {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  border-radius: 3rem;
+  height: 5rem;
+  width: 5rem;
 }
