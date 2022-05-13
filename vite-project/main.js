@@ -13,3 +13,17 @@ tl.from(".navbar", { y: -200, duration: 0.5, ease: "ease-out" });
 tl.from(".navbar-btn", { x: -1500, duration: 0.5, ease: "ease-out", delay: 0 });
 
 tl.from(".theme", { x: -1500, duration: 0.5, ease: "ease-out", delay: 0 });
+
+document.querySelector(".light").addEventListener("click", function () {
+  {
+    document.body.classList.add("light");
+    document.body.classList.remove("dark");
+  }
+});
+
+document.querySelector(".dark").addEventListener("click", function () {
+  {
+    document.body.classList.add("dark");
+    document.body.classList.remove("light");
+  }
+});

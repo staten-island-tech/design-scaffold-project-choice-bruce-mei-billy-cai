@@ -1,14 +1,35 @@
+:root{
+  --light-sky-blue: #87cefa; 
+  --light-cyan: #e0ffff;
+  --navy: #000080
+
+  --primary:var(var(--light-cyan));
+  --secondary:var(var(--navy));
+}
+
+body {
+  background-color: var(--primary);
+}
+.light {
+  background-color: lightcyan;
+  color: navy;
+  --primary: var(--light-sky-blue);
+}
+
+.dark {
+  background-color: navy;
+  color: lightcyan;
+  --primary: var(--navy);
+}
 .navbar {
   height: 12rem;
-  background-color: white;
   border: 1rem;
   border-width: 0.1rem;
-  border-color: black;
+  border-color: navy;
   font-family: "Source Serif Pro", serif;
   text-align: center;
   position: fixed;
   width: 100%;
-
   z-index: 99;
   border-style: solid;
   box-shadow: 1px 1px 18px 1px gray;
@@ -19,7 +40,7 @@
   font-size: 3rem;
   margin-left: 2rem;
   margin-top: 0.5rem;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: 2px 2px 3px navy;
 }
 
 .navbar-btn {
@@ -36,15 +57,15 @@
 
 .navbar-btn:hover {
   transform: scale(1.1);
-  background-color: black;
-  color: white;
+  background-color: navy;
+  color: lightcyan;
   border-radius: 3rem;
   transition-duration: 0.3s;
 }
 
 .theme {
-  background-color: black;
-  color: white;
+  background-color: navy;
+  color: lightcyan;
   font-size: 2rem;
   border-radius: 3rem;
   height: 5rem;

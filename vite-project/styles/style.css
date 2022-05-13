@@ -11,25 +11,48 @@ body,
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+:root{
+  --light-sky-blue: #87cefa; 
+  --light-cyan: #e0ffff;
+  --navy: #000080
+
+  --primary:var(var(--light-cyan));
+  --secondary:var(var(--navy));
+}
+
+body {
+  background-color: var(--primary);
+}
+.light {
+  background-color: lightcyan;
+  color: navy;
+  --primary: var(--light-sky-blue);
+}
+
+.dark {
+  background-color: navy;
+  color: lightcyan;
+  --primary: var(--navy);
+}
 .title {
   font-size: 8rem;
   text-align: center;
   font-family: "Monoton", cursive;
   height: 60rem;
-  color: #ffffff;
+  color: lightcyan;
   position: relative;
   top: 40rem;
-  text-shadow: black 3px 5px;
+  text-shadow: navy 3px 5px;
 }
 .heading {
-  color: white;
+  color: lightcyan;
   font-size: 4rem;
   text-align: center;
   font-weight: 500;
   height: 6rem;
   position: relative;
   font-family: "Source Serif Pro", serif;
-  background-color: black;
+  background-color: navy;
   margin-top: 20rem;
   margin-bottom: 15rem;
   border-radius: 3rem;
@@ -50,7 +73,6 @@ body,
 }
 .card {
   margin-bottom: 4rem;
-  background: #ffffff;
   width: 48rem;
   border-radius: 2rem;
   text-align: center;
