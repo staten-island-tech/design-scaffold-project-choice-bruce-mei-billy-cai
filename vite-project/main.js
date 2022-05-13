@@ -8,6 +8,8 @@ const tl = gsap.timeline({ scrollTrigger: ".header", delay: 0.1 });
 
 tl.from(".title", { y: -500, duration: 1, ease: "ease-out" });
 
-tl.from(".navbar", { y: -100, duration: 0.5, ease: "ease-out" });
+tl.from(".navbar", { y: -200, duration: 0.5, ease: "ease-out" });
 
 tl.from(".navbar-btn", { x: -1500, duration: 0.5, ease: "ease-out", delay: 0 });
+
+tl.from(".theme", { x: -1500, duration: 0.5, ease: "ease-out", delay: 0 });
