@@ -67,28 +67,27 @@ body,
   font-size: 1.5rem;
 }
 .Title {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1460px) {
   body {
-    background-color: lightblue;
+    background-color: lightgreen;
   }
   .heading {
     width: 50%;
   }
+  .card {
+    width: 30rem;
+  }
+  .Title {
+    font-size: 1.8rem;
+  }
+  .cardDescription {
+    font-size: 1.2rem;
+  }
   .cardImage {
-    width: auto;
-    height: auto;
-  }
-}
-
-@media only screen and (max-width: 926px) {
-  body {
-    background-color: red;
-  }
-  .navbar {
-    background-color: aqua;
-    height: 15rem;
+    width: fit-content;
+    height: fit-content;
   }
 }

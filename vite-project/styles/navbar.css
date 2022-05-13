@@ -16,7 +16,6 @@
   text-align: left;
   font-size: 3rem;
   margin-left: 2rem;
-  margin-top: 0.5rem;
   text-shadow: 2px 2px 3px black;
 }
 
@@ -25,7 +24,6 @@
   font-size: 3.5rem;
   width: 12rem;
   margin-left: 3rem;
-  margin-top: 0.5rem;
 }
 
 .navbar-btns li {
@@ -34,7 +32,22 @@
 .navbar-btn:hover {
   transform: scale(1.1);
   background-color: black;
-  color: white;
+  color: #ffffff;
   border-radius: 3rem;
   transition-duration: 0.3s;
+}
+
+@media only screen and (max-width: 926px) {
+  body {
+    background-color: antiquewhite;
+  }
+  .navbar {
+    height: 14rem;
+  }
+  .navbar-title {
+    font-size: 2.5rem;
+  }
+  .navbar-btn {
+    font-size: 3rem;
+  }
 }
