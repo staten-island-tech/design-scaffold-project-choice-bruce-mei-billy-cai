@@ -13,15 +13,14 @@ body {
 .light {
   background-color: lightcyan;
   color: navy;
-  --primary: var(--light-sky-blue);
 }
 
 .dark {
   background-color: navy;
   color: lightcyan;
-  --primary: var(--navy);
 }
 .navbar {
+  color: navy;
   height: 12rem;
   border: 1rem;
   border-width: 0.1rem;
@@ -69,5 +68,25 @@ body {
   font-size: 2rem;
   border-radius: 3rem;
   height: 5rem;
-  width: 5rem;
+  width: 10rem;
+}
+
+.light{
+  background-color: lightcyan;
+  color: navy;
+}
+
+.dark{
+  background-color: navy;
+  color: lightcyan;
+}
+
+.header-background {
+  background-image: url(img/bridge.jpg); 
+  background-size: cover;
+}
+
+.header-background2{
+  background-image: url(img/nyc4.jpg); 
+  background-size: cover;
 }

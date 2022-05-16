@@ -32,7 +32,7 @@ body {
 .dark {
   background-color: navy;
   color: lightcyan;
-  --primary: var(--navy);
+  --secondary: var(--navy);
 }
 .title {
   font-size: 8rem;
@@ -45,14 +45,13 @@ body {
   text-shadow: navy 3px 5px;
 }
 .heading {
-  color: lightcyan;
+  background-color: lightskyblue;
   font-size: 4rem;
   text-align: center;
   font-weight: 500;
   height: 6rem;
   position: relative;
   font-family: "Source Serif Pro", serif;
-  background-color: navy;
   margin-top: 20rem;
   margin-bottom: 15rem;
   border-radius: 3rem;

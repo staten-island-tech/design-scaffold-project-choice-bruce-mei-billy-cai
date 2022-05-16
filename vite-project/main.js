@@ -18,6 +18,8 @@ document.querySelector(".light").addEventListener("click", function () {
   {
     document.body.classList.add("light");
     document.body.classList.remove("dark");
+    document.headbackground.classList.add("header-background");
+    document.headbackground.classList.remove("header-background2");
   }
 });
 
@@ -25,5 +27,7 @@ document.querySelector(".dark").addEventListener("click", function () {
   {
     document.body.classList.add("dark");
     document.body.classList.remove("light");
+    document.headbackground.classList.add("header-background2");
+    document.headbackground.classList.remove("header-background");
   }
 });
