@@ -11,6 +11,7 @@ body,
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
 .title {
   font-size: 8rem;
   text-align: center;
@@ -46,7 +47,10 @@ body,
 .cardImage {
   width: 48rem;
   height: 30rem;
-  border-radius: 1.5rem;
+}
+.cardImage:hover {
+  border-radius: 3.5rem;
+  transition-duration: 0.1s;
 }
 .card {
   margin-bottom: 4rem;
@@ -58,9 +62,11 @@ body,
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
+  border: black;
+  border-width: 2px;
 }
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   transition-duration: 0.2s;
 }
 .cardDescription {
@@ -68,23 +74,23 @@ body,
 }
 .Title {
   font-size: 2.3rem;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1460px) {
   body {
-    background-color: lightgreen;
   }
   .heading {
     width: 50%;
   }
   .card {
-    width: 30rem;
+    width: 45rem;
   }
   .Title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .cardDescription {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .cardImage {
     width: fit-content;
