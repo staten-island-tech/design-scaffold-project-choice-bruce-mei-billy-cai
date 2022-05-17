@@ -49,14 +49,14 @@ body,
   height: 30rem;
 }
 .cardImage:hover {
-  border-radius: 3.5rem;
+  border-radius: 3rem;
   transition-duration: 0.1s;
 }
 .card {
   margin-bottom: 4rem;
   background: #ffffff;
   width: 48rem;
-  border-radius: 2rem;
+  border-radius: 3rem;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -64,10 +64,13 @@ body,
   margin-right: auto;
   border: black;
   border-width: 2px;
+  opacity: 0.8;
 }
 .card:hover {
-  transform: scale(1.01);
+  opacity: 1;
+  transform: scale(1.05);
   transition-duration: 0.2s;
+  z-index: 98;
 }
 .cardDescription {
   font-size: 1.5rem;
@@ -96,4 +99,8 @@ body,
     width: fit-content;
     height: fit-content;
   }
+}
+
+.test {
+  height: 100rem;
 }
