@@ -29,6 +29,7 @@
 .navbar-btns li {
   display: inline-block;
 }
+
 .navbar-btn:hover {
   transform: scale(1.1);
   background-color: black;
@@ -41,7 +42,7 @@
   body {
   }
   .navbar {
-    height: 14rem;
+    height: 13.5rem;
   }
   .navbar-title {
     font-size: 2.5rem;
