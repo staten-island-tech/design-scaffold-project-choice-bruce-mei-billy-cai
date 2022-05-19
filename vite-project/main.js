@@ -12,4 +12,4 @@ tl.from(".navbar", { y: -150, duration: 0.5, ease: "ease-out" });
 
 tl.from(".navbar-btn", { opacity: 0, duration: 1 });
 
-tl.from(".card", { x: -1000, duration: 0.5, ease: "ease-in" });
+tl.from(".card", { x: -3000, duration: 0.5, ease: "ease-in" });
