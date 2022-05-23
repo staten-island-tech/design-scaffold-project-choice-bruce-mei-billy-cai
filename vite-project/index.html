@@ -17,7 +17,7 @@
 <body class="">
   
 <!--NAVBAR-->
-<nav class="navbar bg-white">
+<nav id="navbar" class="navbar bg-white">
   <a href="" class="navbar-title">NEW YORK CITY</a>
     <ul class="navbar-btns">
       <button onclick="change1()" class="theme light">Light</button>
@@ -44,22 +44,32 @@
     </ul>
   </nav>
 
+
   <script>
   function change1() {
     document.getElementById("headbackground").style.backgroundImage =
       "url(img/nyc4.jpg)";
+    document.getElementById("navbar").style.backgroundColor =
+        "lightcyan";
+    document.getElementById("navbar").style.color =
+        "navy";
   }
   function change2() {
     document.getElementById("headbackground").style.backgroundImage =
       "url(img/bridge.jpg)";
+    document.getElementById("navbar").style.backgroundColor =
+        "navy";
+    document.getElementById("navbar").style.color =
+        "lightcyan";
   }
 </script>
-  
+
+
 
 <!--START SECTION-->
   <div class="header" id="home">
-    <div id="headbackground" class="headbackground h-screen" style="background-image: url(img/bridge.jpg); background-size: cover;" >
-      <h1 class="title">New York City</h1>
+    <div id="headbackground" class=" h-screen" style="background-image: url(img/bridge.jpg); background-size: cover;" >
+      <h1 id="title" class="title">New York City</h1>
   </div>
 </div>
 

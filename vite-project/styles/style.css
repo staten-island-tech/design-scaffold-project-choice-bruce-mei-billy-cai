@@ -35,11 +35,11 @@ body {
   --secondary: var(--navy);
 }
 .title {
+  color: white;
   font-size: 8rem;
   text-align: center;
   font-family: "Monoton", cursive;
   height: 60rem;
-  color: lightcyan;
   position: relative;
   top: 40rem;
   text-shadow: navy 3px 5px;

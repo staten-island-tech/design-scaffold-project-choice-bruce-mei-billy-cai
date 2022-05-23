@@ -20,7 +20,6 @@ body {
   color: lightcyan;
 }
 .navbar {
-  color: navy;
   height: 12rem;
   border: 1rem;
   border-width: 0.1rem;
@@ -81,12 +80,16 @@ body {
   color: lightcyan;
 }
 
-.header-background {
-  background-image: url(img/bridge.jpg); 
-  background-size: cover;
-}
-
-.header-background2{
-  background-image: url(img/nyc4.jpg); 
-  background-size: cover;
+@media only screen and (max-width: 926px) {
+  body {
+  }
+  .navbar {
+    height: 13.5rem;
+  }
+  .navbar-title {
+    font-size: 2.5rem;
+  }
+  .navbar-btn {
+    font-size: 3rem;
+  }
 }
