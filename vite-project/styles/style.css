@@ -91,3 +91,25 @@ body {
 .Title {
   font-size: 2.5rem;
 }
+
+@media only screen and (max-width: 1460px) {
+  body {
+  }
+  .heading {
+    width: 50%;
+  }
+  .card {
+    width: 45rem;
+  }
+  .Title {
+    font-size: 1.6rem;
+  }
+  .cardDescription {
+    font-size: 1.1rem;
+  }
+  .cardImage {
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
