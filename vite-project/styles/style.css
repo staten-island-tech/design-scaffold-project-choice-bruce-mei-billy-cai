@@ -101,3 +101,27 @@ body,
     height: fit-content;
   }
 }
+
+:root{
+  --light-sky-blue: #87cefa; 
+  --light-cyan: #e0ffff;
+  --navy: #000080
+ 
+  --primary:var(var(--light-cyan));
+  --secondary:var(var(--navy));
+}
+ 
+body {
+  background-color: var(--primary);
+}
+.light {
+  background-color: lightcyan;
+  color: navy;
+  --primary: var(--light-sky-blue);
+}
+ 
+.dark {
+  background-color: navy;
+  color: lightcyan;
+  --secondary: var(--navy);
+}
