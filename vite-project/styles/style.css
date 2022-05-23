@@ -47,7 +47,7 @@ body,
 .cardImage {
   width: 48rem;
   height: 30rem;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .cardImage:hover {
   border-radius: 3rem;
@@ -100,8 +100,4 @@ body,
     width: fit-content;
     height: fit-content;
   }
-}
-
-.test {
-  height: 100rem;
 }

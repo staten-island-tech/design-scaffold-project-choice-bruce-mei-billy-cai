@@ -16,6 +16,11 @@
   text-align: center;
   margin: 0.75rem 2rem;
   margin-top: 2rem;
+  opacity: 60%;
+}
+.logo:hover {
+  opacity: 100%;
+  transition-duration: 0.2s;
 }
 .footerMiddle {
   display: flex;
