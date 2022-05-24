@@ -51,14 +51,12 @@ body,
   border-radius: 3rem;
 }
 .cardImage:hover {
-
   transition-duration: 0.3s;
   opacity: 1;
-  
 }
 .card {
   margin-bottom: 4rem;
-  
+
   width: 48rem;
   border-radius: 3rem;
   text-align: center;
@@ -71,8 +69,6 @@ body,
 }
 .card:hover {
   transition-duration: 0.5s;
-  
-  z-index: 98;
 }
 .cardDescription {
   font-size: 1.5rem;
@@ -102,31 +98,4 @@ body,
     width: fit-content;
     height: fit-content;
   }
-}
-
-:root{
-  --light-sky-blue: #87cefa; 
-  --light-cyan: #e0ffff;
-  --navy: #000080
-  --black: #000000
-  --white: #ffffff
- 
-  --primary:var(var(--white));
-  --secondary:var(var(--navy));
-}
- 
-.navbar{
-  background-color: var(--secondary);
-  
-}
-.light {
-  background-color: var(--white);
-  color: var(--black);
-  --primary: var(--white);
-}
- 
-.dark {
-  background-color: navy;
-  color: lightcyan;
-  --secondary: var(--navy);
 }

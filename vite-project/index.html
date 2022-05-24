@@ -17,11 +17,12 @@
 <body class="">
   
 <!--NAVBAR-->
-<nav class="navbar">
+<nav class="navbar" id="navbarID">
   <a href="" class="navbar-title">NEW YORK CITY</a>
     <ul class="navbar-btns">
-      <button onclick="change1()" class="theme light">Light</button>
-      <button onclick="change2()" class="theme dark">Dark</button>
+      <button onclick="change1()" class="theme light" id="colorChange">Light</button>
+      <button onclick="change2()" class="theme dark" id="colorChange">Dark</button>
+      
       <li class="navbar-btn" id="homeButton">
         <a href="#home">Home</a>
       </li>
@@ -43,6 +44,20 @@
     </ul>
   </nav>
 
+<!--BACKGROUND CHANGE BUTTONS-->
+<script>
+  function change1() {
+  document.getElementById("headbackground").style.backgroundImage =
+    "url(img/nyc4.jpg)";
+    document.getElementById("navbarID").style.backgroundColor = "white"
+}
+  function change2() {
+  document.getElementById("headbackground").style.backgroundImage =
+    "url(img/bridge.jpg)";
+    document.getElementById("navbarID").style.backgroundColor = "navy"
+  }
+</script>
+
 <!--START SECTION-->
 <div id="home"></div>
   <div class="header">
@@ -50,18 +65,6 @@
       <h1 class="title">New York City</h1>
   </div>
 </div>
-
-<!--BACKGROUND CHANGE-->
-<script>
-  function change1() {
-  document.getElementById("headbackground").style.backgroundImage =
-    "url(img/nyc4.jpg)";
-}
-function change2() {
-    document.getElementById("headbackground").style.backgroundImage =
-      "url(img/bridge.jpg)";
-  }
-</script>
 
 <!--BOROUGH SECTION-->
 <div id="boroughs"></div>
