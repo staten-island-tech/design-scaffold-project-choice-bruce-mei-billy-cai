@@ -27,3 +27,19 @@ document.querySelector(".dark").addEventListener("click", function () {
     document.body.classList.remove("light");
   }
 });
+
+function change1() {
+  document.getElementById("headbackground").style.backgroundImage =
+    "url(img/nyc4.jpg)";
+  document.getElementById("navbar").style.backgroundColor = "lightcyan";
+  document.getElementById("navbar").style.color = "navy";
+}
+change1();
+
+function change2() {
+  document.getElementById("headbackground").style.backgroundImage =
+    "url(img/bridge.jpg)";
+  document.getElementById("navbar").style.backgroundColor = "navy";
+  document.getElementById("navbar").style.color = "lightcyan";
+}
+change2();
