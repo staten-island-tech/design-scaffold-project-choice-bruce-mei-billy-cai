@@ -1,94 +1,27 @@
-import "./style.css";
+import "./styles/style.css";
+import "./styles/footer.css";
+import "./styles/navbar.css";
+import "./styles/var.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-const tl = gsap.timeline({ scrollTrigger: ".header", delay: 0.2 });
 
-tl.from(".navbar", {
-  x: -2000,
-  duration: 0.4,
-});
+//GSAP SCROLLTRIGGER
+const tl = gsap.timeline({ scrollTrigger: ".card", delay: 0.2 });
 
-tl.from(".title", { opacity: 0, duration: 0.6, ease: "ease-out" });
+tl.from(".card", { x: -3000, duration: 2, ease: "ease-in" });
 
-`tl.from(".header", {
-  clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-  duration: 0.5,
-  ease: "ease-out",
-});`;
-
-function animateFrom(elem, direction) {
-  direction = direction || 1;
-  var x = 0,
-    y = direction * 100;
-  if (elem.classList.contains("gs_reveal_fromLeft")) {
-    x = -100;
-    y = 0;
-  } else if (elem.classList.contains("gs_reveal_fromRight")) {
-    x = 100;
-    y = 0;
+//THEMES
+document.querySelector(".light").addEventListener("click", function () {
+  {
+    document.body.classList.add("light");
+    document.body.classList.remove("dark");
   }
-  elem.style.transform = "translate(" + x + "px, " + y + "px)";
-  elem.style.opacity = "0";
-  gsap.fromTo(
-    elem,
-    { x: x, y: y, autoAlpha: 0 },
-    {
-      duration: 1.25,
-      x: 0,
-      y: 0,
-      autoAlpha: 1,
-      ease: "expo",
-      overwrite: "auto",
-    }
-  );
-}
-
-function hide(elem) {
-  gsap.set(elem, { autoAlpha: 0 });
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-  gsap.registerPlugin(ScrollTrigger);
-
-  gsap.utils.toArray(".gs_reveal").forEach(function (elem) {
-    hide(elem); // assure that the element is hidden when scrolled into view
-
-    ScrollTrigger.create({
-      trigger: elem,
-      onEnter: function () {
-        animateFrom(elem);
-      },
-      onEnterBack: function () {
-        animateFrom(elem, -1);
-      },
-      onLeave: function () {
-        hide(elem);
-      }, // assure that the element is hidden when scrolled into view
-    });
-  });
 });
 
-let proxy = { skew: 0 },
-  skewSetter = gsap.quickSetter(".skewElem", "skewY", "deg"), // fast
-  clamp = gsap.utils.clamp(-20, 20); // don't let the skew go beyond 20 degrees.
-
-ScrollTrigger.create({
-  onUpdate: (self) => {
-    let skew = clamp(self.getVelocity() / -300);
-    // only do something if the skew is MORE severe. Remember, we're always tweening back to 0, so if the user slows their scrolling quickly, it's more natural to just let the tween handle that smoothly rather than jumping to the smaller skew.
-    if (Math.abs(skew) > Math.abs(proxy.skew)) {
-      proxy.skew = skew;
-      gsap.to(proxy, {
-        skew: 0,
-        duration: 0.8,
-        ease: "power3",
-        overwrite: true,
-        onUpdate: () => skewSetter(proxy.skew),
-      });
-    }
-  },
+document.querySelector(".dark").addEventListener("click", function () {
+  {
+    document.body.classList.add("dark");
+    document.body.classList.remove("light");
+  }
 });
-
-// make the right edge "stick" to the scroll bar. force3D: true improves performance
-gsap.set(".skewElem", { transformOrigin: "right center", force3D: true });
