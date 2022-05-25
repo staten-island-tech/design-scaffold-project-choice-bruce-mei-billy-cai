@@ -1,26 +1,22 @@
 :root{
-    --light-sky-blue: #87cefa; 
-    --light-cyan: #e0ffff;
-    --navy: #000080
-    --black: #000000
-    --white: #ffffff
-   
-    --primary:var(var(--white));
-    --secondary:var(var(--navy));
-  }
-   
-  .navbar{
-    background-color: var(--secondary);
-    
-  }
-  .light {
-    background-color: var(--white);
-    color: var(--black);
-    --primary: var(--white);
-  }
-   
-  .dark {
-    background-color: navy;
-    color: var(--light-cyan);
-    --secondary: var(--navy);
-  }
+  --light-sky-blue: #87cefa; 
+  --light-cyan: #e0ffff;
+  --navy: #000080
+  --black: #000000
+  --white: #ffffff
+ 
+  --primary:var(var(--white));
+  --secondary:var(var(--navy));
+}
+
+.light {
+  background-color: var(--white);
+  color: var(--black);
+  --primary: var(--white);
+}
+ 
+.dark {
+  background-color: navy;
+  color: var(--light-cyan);
+  --secondary: var(--navy);
+}
