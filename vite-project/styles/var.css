@@ -9,10 +9,6 @@
     --secondary:var(var(--navy));
   }
    
-  .navbar{
-    background-color: var(--secondary);
-    
-  }
   .light {
     background-color: var(--white);
     color: var(--black);
@@ -23,4 +19,8 @@
     background-color: navy;
     color: var(--light-cyan);
     --secondary: var(--navy);
+  }
+  .light2 {
+    background-color: white;
+    color: navy;
   }

@@ -98,4 +98,7 @@ body,
     width: fit-content;
     height: fit-content;
   }
+  .flex {
+    flex-direction: column;
+  }
 }
