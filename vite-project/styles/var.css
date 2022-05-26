@@ -4,6 +4,8 @@
   --navy: #000080
   --black: #000000
   --white: #ffffff
+  --grey: #262626
+  --green: #A3E7a2
  
   --primary:var(var(--white));
   --secondary:var(var(--navy));
@@ -16,7 +18,7 @@
 }
  
 .dark {
-  background-color: navy;
-  color: var(--light-cyan);
-  --secondary: var(--navy);
+  background-color: #262626;
+  color: #A3E7a2;
+  --secondary: var(--grey);
 }
