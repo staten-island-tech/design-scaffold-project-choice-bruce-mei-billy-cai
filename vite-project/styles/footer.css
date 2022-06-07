@@ -1,6 +1,5 @@
 .footer {
-  background-color: #000000;
-  color: #ffffff;
+  color: #000000;
 }
 .footer p {
   text-align: center;
@@ -20,6 +19,7 @@
 }
 .logo:hover {
   opacity: 100%;
+  transform: scale(1.1);
   transition-duration: 0.2s;
 }
 .footerMiddle {

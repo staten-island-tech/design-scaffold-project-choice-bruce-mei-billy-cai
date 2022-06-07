@@ -47,16 +47,16 @@ body,
 .cardImage {
   width: 48rem;
   height: 30rem;
-  opacity: 0.8;
+  opacity: 0.7;
   border-radius: 3rem;
 }
 .cardImage:hover {
   transition-duration: 0.3s;
+  transform: scale(1.05);
   opacity: 1;
 }
 .card {
   margin-bottom: 4rem;
-
   width: 48rem;
   border-radius: 3rem;
   text-align: center;
@@ -66,9 +66,6 @@ body,
   margin-right: auto;
   border: black;
   border-width: 2px;
-}
-.card:hover {
-  transition-duration: 0.5s;
 }
 .cardDescription {
   font-size: 1.5rem;
